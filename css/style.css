@@ -1,0 +1,84 @@
+*{ 
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(236, 226, 226);
+} 
+h1,h2{
+    color:#19304F;
+}
+p,li{
+    color:#222222;
+    font-size: 20px;
+}
+#curriculo{
+    width: 75vw;
+    height: 150vh;
+    margin: auto;
+    display: flex;
+}
+
+#parte_branca{
+    padding: 55px;
+    background-color: #FFFFFF;
+    height: 100%;
+    width: 70%;
+}
+
+#parte_azul{
+    background-color: #19304F;
+    height: 100%;
+    width: 30%;
+}
+
+#cabecalho{
+    display: flex;
+    align-items: center;
+}
+#cabecalho img{
+     width: 160px;
+    border-radius: 50%;
+    height: 140px;
+    margin-right: 15px;
+}
+
+article{
+    padding: 20px;
+    margin-top: 30px;
+}
+article h2{
+    margin-bottom: 15px;
+}
+article ul{
+    margin-left: 30px;
+}
+article li{
+    padding: 7px;
+}
+
+.texto_branco{
+    color: white;
+}
+#contato{
+    margin-top: 15vh;
+}
+#contato img{
+    width: 50px;
+    margin-top: 20px;
+}
+#conhecimentos{
+    padding: 15px;
+    margin-left: 12px;
+}
+.lista{
+    border-bottom: 1px solid white;
+    margin-bottom: 3px;
+    width: 170px;
+}
+footer{
+    text-align: center;
+    margin-top: 20px;
+}
